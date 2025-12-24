@@ -19,6 +19,7 @@ public interface BusanMapper {
 	    <include refid="where-sql"/>
 	    OFFSET #{start} ROWS FECTH NEXT 6 ROWS ONLY
 	  </select>
+	  123123
    */
 	public List<BusanVO> busanListData(Map map);
    /*
